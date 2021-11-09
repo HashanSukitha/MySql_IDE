@@ -1,0 +1,12 @@
+A drop-down list located outside a form (but still a part of the form):
+<form action="demo_form.asp" id="carform">
+  Firstname:<input type="text" name="fname">
+  <input type="submit">
+</form>
+
+<select name="carlist" form="carform">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select> 

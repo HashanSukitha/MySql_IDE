@@ -1,0 +1,54 @@
+body
+{
+background:url(../images/loginBG.jpg) #000000 no-repeat;
+margin: 0 auto;
+}
+#cylinderBottom
+{
+background: url("../images/ceylinderBottom.png") no-repeat scroll center 0 transparent;
+    bottom: 0;
+    height: 22px;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+
+}
+#cylinderTop
+{
+background: url("../images/ceylinder.png") no-repeat scroll center 0 transparent;
+    height: 35px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#shutterTop
+{
+background: url("../images/shutterTop.png") no-repeat scroll 47% 0 transparent;
+    height: 168px;
+    margin: 0;
+    width: 100%;
+}
+#shutterBottom
+{
+ background: url("../images/shutterBottom.png") no-repeat scroll 47% 0 transparent;
+    height: 172px;
+    margin: 6% 0 0;
+    width: 100%;
+}
+#sharftTop
+{
+  background: url("../images/sharft.jpg") repeat-y scroll center center transparent;
+    height: 87px;
+    width: 100%;
+
+}
+
+#sharftBottom
+{
+background: url("../images/sharft.jpg") repeat-y scroll center center transparent;
+   height: 129px;
+    width: 100%;
+	    position: absolute;
+}
+

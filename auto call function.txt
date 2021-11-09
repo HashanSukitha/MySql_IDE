@@ -1,0 +1,6 @@
+<script language="javascript">
+  function generate() {
+    $('#number').text(Math.floor(Math.random() * 6) + 1);
+  }
+  setInterval(generate, 1000);
+</script>

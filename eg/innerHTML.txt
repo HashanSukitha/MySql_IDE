@@ -1,0 +1,40 @@
+<script type="text/javascript">
+function changeText(){
+	document.getElementById('boldStuff').innerHTML = 'Fred Flinstone';
+}
+</script>
+<p>Welcome to the site <b id='boldStuff'>dude</b> </p> 
+<input type='button' onclick='changeText()' value='Change Text'/>
+
+======================================================================================
+Updating Text Based on User Input
+======================================================================================
+By adding a Text Input, we can take to updating our bold text with whatever the user types into the text input. Note: We updated the function a bit and set the id to boldStuff2.
+JavaScript Code:
+
+<script type="text/javascript">
+function changeText2(){
+	var userInput = document.getElementById('userInput').value;
+	document.getElementById('boldStuff2').innerHTML = userInput;
+}
+</script>
+<p>Welcome to the site <b id='boldStuff2'>dude</b> </p> 
+<input type='text' id='userInput' value='Enter Text Here' />
+<input type='button' onclick='changeText2()' value='Change Text'/>
+
+
+======================================================================================
+Changing HTML with innerHTML
+======================================================================================
+You can also insert HTML into your elements in the exact same way. Let's say we didn't like the text that was displayed in our paragraph and wanted to updated it with some color. The following code will take the old black text and make it bright white. The only thing we're doing different here is inserting the html element span to change the color.
+JavaScript Code:
+
+<script type="text/javascript">
+function changeText3(){
+	var oldHTML = document.getElementById('para').innerHTML;
+	var newHTML = "<span style='color:#ffffff'>" + oldHTML + "</span>";
+	document.getElementById('para').innerHTML = newHTML;
+}
+</script>
+<p id='para'>Welcome to the site <b id='boldStuff3'>dude</b> </p> 
+<input type='button' onclick='changeText3()' value='Change Text'/>

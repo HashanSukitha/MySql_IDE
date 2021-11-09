@@ -1,0 +1,342 @@
+body
+{
+background:url(../images/BG.jpg) repeat-y center;
+margin:0;
+}
+
+#menu
+{
+background: url("../images/menu.jpg") repeat-x scroll 0 0 transparent;
+    height: 81px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+#menuLeft
+{
+ background: url("../images/menuLeft.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 81px;
+    width: 27%;
+}
+#menuRight
+{
+ background: url("../images/menuRight.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 81px;
+    width: 27%;
+}
+
+#menuMiddle
+{
+background: url("../images/menuMiddle1.png") repeat scroll 0 0 transparent;
+    height: 81px;
+    margin: 0 auto;
+    width: 46%;
+}
+
+#HomeBtn1
+{
+ background: url("../images/electroHome.png") no-repeat scroll 82% -32% transparent;
+    height: 81px;
+    margin: 0 0 0 44px;
+    padding: 4px 0 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+}
+#btns
+{
+background: url("../images/electroBtns.png") no-repeat scroll 0 27px transparent;
+    height: 81px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 515px;
+}
+#btnContainer ul
+{
+float: right;
+    margin: 0;
+    width: 277px;
+}
+#btnContainer ul li
+{
+ background: url("../images/btn.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 33px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 6px 0 0 43px;
+    width: 92px;
+}
+#leftTba
+{
+float:left;
+width:328px;
+height:480px;
+background:url(../images/TabBg.png) no-repeat;
+display:none;
+}
+#TabContainer
+{
+    bottom: 0;
+    position: absolute;
+   /* width: 393px;*/
+	z-index: 10000;
+}
+#TabHead
+{
+background: url("../images/TabHead.png") no-repeat scroll 0 10px transparent;
+    float: left;
+    height: 301px;
+
+    width: 54px;
+}
+#container
+{
+    bottom: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+#container2
+{
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#tabHndle
+{
+    height: 223px;
+    margin: 49px 0 0;
+    width: 50px;
+	
+}
+#formInner 
+{
+background: url("../images/formLightBg.png") no-repeat scroll 0 0 #034B58;
+   height: inherit;
+overflow: auto;
+padding: 5px;
+}
+#leftTba ul
+{
+color: #FFFFFF;
+list-style: none outside none;
+margin: 63px 0 0 32px;
+padding: 0;
+}
+#leftTba ul li
+{
+cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 0 0px;
+    padding: 13px 0 0;
+    text-align: center;
+}
+#db
+{
+background: url("../images/db.png") no-repeat scroll 0 0 transparent;
+}
+#db:hover
+{
+background:url("../images/db1.png") no-repeat scroll 0 0 transparent;
+}
+#sql
+{
+background:url(../images/db.png) no-repeat;
+}
+#sql:hover
+{
+background:url(../images/sql1.png) no-repeat;
+}
+#Usr
+{
+background:url(../images/db.png) no-repeat;
+}
+#Usr:hover
+{
+background:url(../images/user1.png) no-repeat;
+}
+#newUsr
+{
+background:url(../images/dbSub.png) no-repeat;
+}
+#newUsr:hover
+{
+background:url(../images/new1.png) no-repeat;
+}
+.Btn
+{
+   /* display: none;*/
+     height: 38px;
+    width: 196px;
+}
+.SubBtn
+{
+     height: 38px;
+    width: 160px;
+	/*display: none;*/
+}
+#formInner .overview {
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+#formInner .scrollbar {
+    background:url("../images/bg-scrollbar-track-y.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    position: relative;
+    width: 15px;
+}
+#formInner .track {
+    background: url("../images/bg-scrollbar-trackend-y.png") no-repeat scroll 0 100% transparent;
+    height: 100%;
+    padding: 0 1px;
+    position: relative;
+    width: 13px;
+}
+#formInner .thumb {
+    background: url("../images/bg-scrollbar-thumb-y.png") no-repeat scroll 50% 100% transparent;
+    cursor: pointer;
+    height: 20px;
+    left: -5px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+#formInner .thumb .end {
+    background: url("../images/bg-scrollbar-thumb-y.png") no-repeat scroll 50% 0 transparent;
+    height: 5px;
+    overflow: hidden;
+    width: 25px;
+}
+#formInner .viewport {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+}
+jkhj#formHeader
+{
+height: 35px;
+}
+#txtHint
+{
+}
+ table tr td
+{
+.background: none repeat scroll 0 0 #000000;
+    text-align: center;
+    min-width: 100px;
+	padding: 6px;
+	
+	background: rgb(207,231,250); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,231,250,1)), color-stop(100%,rgba(99,147,193,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
+}
+table tr td a
+{
+ color: #000;
+    text-decoration: none;
+}
+#formInner table
+{
+}
+#HomeBtn1 a
+{
+position: absolute;
+}
+#btnInner
+{
+height: 70px;
+    width: 70px;
+}
+#clock
+{
+font-size: 37px;
+    font-weight: bold;
+    height: 37px;
+    left: 10%;
+    position: absolute;
+    top: 28%;
+    width: 300px;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow:#000 1px 2px 4px;
+	cursor: none;
+}
+#time
+{
+  width:300px;
+  height:30px;
+}
+#date
+{
+color: #FFFFFF;
+font-family: Helvetica;
+    font-size: 31px;
+    height: 30px;
+    left: 10%;
+    position: absolute;
+    top: 21%;
+    width: 300px;
+	text-shadow:#000 0px 2px 4px;
+	cursor: none;
+	filter:
+	progid:DXImageTransform.Microsoft.Glow(Color=#bbbbbb,Strength=2)
+	progid:DXImageTransform.Microsoft.blur(pixelradius=5, enabled='true');
+}
+#leftTba ul ul
+{
+ color: #FFFFFF;
+    list-style: none outside none;
+    margin: 14px 0 0 36px;
+    padding: 0;
+    width: 200px;
+}
+#leftTba ul ul li
+{
+cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+#dbCreate
+{
+background:url(../images/dbSub.png) no-repeat;
+}
+#dbCreate:hover
+{
+background:url(../images/crt1.png) no-repeat;
+}
+#dbImport
+{
+background:url(../images/dbSub.png) no-repeat;
+}
+#dbImport:hover
+{
+background:url(../images/import1.png) no-repeat;
+}
